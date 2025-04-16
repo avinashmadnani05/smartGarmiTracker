@@ -134,7 +134,7 @@ const Ai = () => {
             {messages.length === 0 ? (
               <div className="flex flex-col items-center justify-center h-full">
                 <p className="text-lg font-medium text-center">
-                  Hey! Welcome to <span style={{ color: "var(--btn)" }}>[project name]</span><br />How can I help you today?
+                  Hey! Welcome to <span style={{ color: "cyan" }}>Smart Garmi Tracker</span><br />How can I help you today?
                 </p>
               </div>
             ) : (
