@@ -33,12 +33,9 @@ const Home = () => {
     <div className="w-full flex flex-col items-center gap-10">
       <div className="flex gap-10 w-full justify-between py-1 px-2">
         <Ai />
-        <button className="bg-blue-500 w-10 rounded-4xl flex justify-center items-center">
-          <MessageSquare />
-        </button>
       </div>
 
-      <div className="h-96 w-[600px] flex items-center flex-col">
+      <div className="h-96 lg:w-[1000px] lg:h-[500px] w-[600px] flex items-center flex-col">
         Local Heatmap
         <Heatmap />
       </div>
