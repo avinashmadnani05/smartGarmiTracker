@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: knit;
+  src: url(fonts/Kanit/Kanit-Light.ttf);
+}
+
+@media (prefers-color-scheme: dark) {
+}
+
+html,
+body {
+  background-color: #333;
+  color: white;
+  font-family: knit;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
