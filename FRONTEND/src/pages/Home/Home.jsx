@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Heatmap from "../../components/heatmap/heatmap";
 import Ai from "../../components/AI/Ai";
-import Feedbacks from "../../components/feedbacks/feedbacks";
+import Feedbacks from "../../components/feedbacks/Feedbacks";
 import { MessageSquare } from "lucide-react";
 import axios from "axios"; // Make sure axios is installed
 
